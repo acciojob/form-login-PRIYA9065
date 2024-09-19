@@ -1,9 +1,11 @@
+let output1, output2;
+
 function getFormvalue() {
     //Write your code here
-	// let output1 = document.getElementByName('fname');
-	// let output2 = document.getElementByName('lname');
-	let first = input[0].value;
-	let last = input[1].value;
-	alert(first + last);
+	output1 = document.getElementById('fname').value;
+	output2 = document.getElementById('lname').value;
 
+	alert(output1 + " " + output2);
+	
 }
+
